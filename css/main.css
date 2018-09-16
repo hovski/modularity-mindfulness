@@ -28,3 +28,14 @@ nav a:hover {
 .pad-left {
   padding-left: 0.5rem;
 }
+
+.btn-ghost {
+  border-color: #8bc9d9;
+  color: #005e76;
+}
+
+.btn-ghost:hover {
+  border-color: #005e76;
+  color: #005e76;
+  background-color: #8bc9d9;
+}
