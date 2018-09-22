@@ -2,6 +2,10 @@ html {
   font-family: "Noto Sans", sans-serif;
 }
 
+header {
+  padding-top: 1.3rem;
+}
+
 .japanese {
   font-family: "Noto Sans Japanese", sans-serif;
 }
@@ -16,12 +20,13 @@ nav a {
   text-align: center;
 }
 
-.centeredlogo {
+.centered-logo {
   text-align: center;
 }
 
 nav a:hover {
-  border-bottom: 2px solid #005e76;
+  color: #0084a6;
+  border-bottom: 2px solid #0084a6;
 }
 
 .box-border {
@@ -33,10 +38,6 @@ nav a:hover {
   border-top: 2px solid #e2e2e2;
 }
 
-.pad-left {
-  padding-left: 0.5rem;
-}
-
 .btn-ghost {
   border-color: #8bc9d9;
   color: #005e76;
@@ -44,17 +45,21 @@ nav a:hover {
 
 .btn-ghost:hover {
   border-color: #005e76;
-  color: #005e76;
+  color: #000;
   background-color: #8bc9d9;
 }
 
 @media only screen and (min-width: 60em) {
 
+  header {
+    padding-top: 0;
+  }
+
   #nav {
     text-align: right;
   }
 
-  .centeredlogo {
+  .centered-logo {
     text-align: left;
   }
 
